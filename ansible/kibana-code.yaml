@@ -1,0 +1,9 @@
+- name: Configure webserver with Kibana
+  hosts: kibana
+  become: yes
+  tasks:
+    - name: verify code
+      shell: /usr/share/kibana/bin/kibana-verification-code
+      register: code
+    - name: verify code
+      debug: var=code.stdout_lines
