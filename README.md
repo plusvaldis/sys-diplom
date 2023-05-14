@@ -16,8 +16,8 @@
 Ключевая задача — разработать отказоустойчивую инфраструктуру для сайта, включающую мониторинг, сбор логов и резервное копирование основных данных. Инфраструктура должна размещаться в [Yandex Cloud](https://cloud.yandex.com/).
 
 ## Адреса для подключения  
-Grafana: [51.250.103.31:3000](http://51.250.102.244:3000/) user/useruser  
-Kibana: [62.84.122.141:5106](http://62.84.123.222:5601/) admin/administrator  
+Grafana: [51.250.27.103:3000](http://51.250.27.103:3000/) user/useruser  
+Kibana: [158.160.12.150:5601](http://158.160.12.150:5601/) admin/administrator  
 Для удобства подключил [Elasticsearch в Grafana](http://158.160.22.130:3000/explore?orgId=1&left=%7B%22datasource%22:%22wH7fuHUVk%22,%22queries%22:%5B%7B%22refId%22:%22A%22,%22datasource%22:%7B%22type%22:%22elasticsearch%22,%22uid%22:%22wH7fuHUVk%22%7D,%22query%22:%22%22,%22alias%22:%22%22,%22metrics%22:%5B%7B%22type%22:%22count%22,%22id%22:%221%22%7D%5D,%22bucketAggs%22:%5B%7B%22type%22:%22date_histogram%22,%22id%22:%222%22,%22settings%22:%7B%22interval%22:%22auto%22%7D,%22field%22:%22@timestamp%22%7D%5D,%22timeField%22:%22@timestamp%22%7D%5D,%22range%22:%7B%22from%22:%22now-1h%22,%22to%22:%22now%22%7D%7D)
 
 ## Инфраструктура
