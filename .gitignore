@@ -39,3 +39,5 @@ providers.tf
 
 *.lock.tf
 *.lock.hcl
+
+cloud-init.yaml

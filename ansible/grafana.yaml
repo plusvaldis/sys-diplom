@@ -1,6 +1,0 @@
----
-- name: Configure webserver with Grafana 
-  hosts: grafana
-  become: true
-  roles:
-  - role: grafana

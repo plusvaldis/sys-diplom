@@ -1,2 +1,0 @@
-host_elastic: "{{ hostvars['elastic_host'].ansible_host}}"
-host_kibana: "{{ hostvars['kibana_host'].ansible_host}}"
