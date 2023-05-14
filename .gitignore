@@ -38,3 +38,4 @@ key.json
 providers.tf
 
 *.lock.tf
+*.lock.hcl
