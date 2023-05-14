@@ -15,9 +15,6 @@ resource "yandex_compute_instance" "kibana" {
   metadata = {
     user-data = "${file("cloud-init.yaml")}"
   }
-  scheduling_policy {
-    preemptible = true
-  }
   network_interface {
     subnet_id = "${yandex_vpc_subnet.mysubnet-b.id}"
     nat = true

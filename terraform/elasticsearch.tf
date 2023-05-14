@@ -15,9 +15,7 @@ resource "yandex_compute_instance" "elasticsearch" {
   metadata = {
     user-data = "${file("cloud-init.yaml")}"
   }
-  scheduling_policy {
-    preemptible = true
-  }
+
   network_interface {
     subnet_id = "${yandex_vpc_subnet.mysubnet-b.id}"
     security_group_ids = [ 

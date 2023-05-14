@@ -15,9 +15,7 @@ resource "yandex_compute_instance" "bastion-host" {
   metadata = {
     user-data = "${file("cloud-init.yaml")}"
   }
-  scheduling_policy {
-    preemptible = true
-  }
+
   network_interface {
     subnet_id = "${yandex_vpc_subnet.mysubnet-c.id}"
     nat = true
