@@ -1,0 +1,2 @@
+web1_ip: "{{ hostvars['web1'].ansible_host}}"
+web2_ip: "{{ hostvars['web2'].ansible_host}}"
