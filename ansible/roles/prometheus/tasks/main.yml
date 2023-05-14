@@ -92,7 +92,7 @@
       scrape_configs:
         - job_name: "prometheus"
           static_configs:
-            - targets: ['localhost:9090', '{{web1_ip}}:9100', '{{web2_ip}}:9100']
+            - targets: ['localhost:9090']
         - job_name: "host"
           static_configs:
             - targets: ['{{web1_ip}}:4040', '{{web2_ip}}:4040']
