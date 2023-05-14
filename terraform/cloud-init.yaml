@@ -1,0 +1,13 @@
+#cloud-config
+users:
+  - name: cherepanov
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys: 
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8QmOGRbDfIjM3xCf7xi8IqEj4sknmNRMBPRqaROQqgR7Yc6ERs8+JIRUP7t79eW/OvljQsOGnyo6Jf6T4YIZ65tkC+SyzZccIM5HFFGwwDPNHDSU64/QNnxl7Dw4MS3yOmvAaJPTEVuns5e2h79v1MTSBttPhBNmKlY0LjCnAcI9RuV4s2Cxlsd0mdfWKvOgUtAvfk2z6eXjgd5NTbFoE41+a2cGhiyzzbCsZuiPyg2vXu6HUnJCQR/pnjSG77jRtqyOVJmAES3T91LQwoDEwSBu7mGEkLcUt89z3U7zIJ+WwLz9Ev5V0Z+2jq0uYCS4aVaT9KtglaibHLMjuASMwq+K6p53wh1bKimf3TPKzRINPtL4xALWOAtJB+MCW3MZxtKpZANjN7fCfdqdwrlUcr7GJL+Uh9AnPuf9883SQAKPa4+J+HtSFxVlnHCIEyk20gJ4C5khQG4GAOqsFJGE6WxOi1SiOldK5aHveo+ECZaDVQCUYlCbtxBwJVc/cpQs= pc@pc-MS-7D15
+
+
+
+
+

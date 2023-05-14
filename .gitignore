@@ -36,3 +36,5 @@ terraform.rc
 key.json
 
 providers.tf
+
+*.lock.tf
